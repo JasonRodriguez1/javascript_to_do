@@ -1,0 +1,44 @@
+body {
+  background-image: url('../img/paper.png');
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-left: -10%;
+}
+
+input {
+  width: 80px;
+  height: 20px;
+}
+
+input {
+  border-radius: 5px;
+  width: 160px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.completed-list {
+  text-decoration: line-through;
+}
+
+.container {
+  margin-left: 18%;
+}
+
+.hiding {
+  display: none;
+}
+
+.name-add {
+  margin-left: 25%;
+}

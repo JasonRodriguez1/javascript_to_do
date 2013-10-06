@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>To Do</title>
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/scripts.js"></script>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+  <body>
+  	<div class="container">
+  		<h1>To Do List</h1>
+  		<hr>
+      
+      <div class="row">
+
+        <!-- LIST ZERO -->
+        <div class="col-4">
+      		<div>
+            <form class="create-list" value="0">
+              <button class="name-add btn btn-primary" type="submit">Name List</button>
+            </form>
+      			<h3><span id="list-0-name">My List</span></h3>
+      			<ul>
+      				<li>
+      					<form class="add-to-list" value="0">
+    	  					<input class="list-0-to-do" type="text"></input>
+    	  					<button class="btn btn-xs btn-primary" type="submit">Add to list</button>
+      					</form>
+      				</li>
+      				<span class="list-0-incomplete"></span>
+      			</ul>
+      		</div>
+
+      		<div>
+      			<h3>Done!</h3>
+      			<ul class="completed-list">
+      				<span class="list-0-complete"></span>
+      			</ul>
+      		</div>
+        </div>
+
+        <!-- LIST ONE -->
+        <div class="col-4">
+          <form class="create-list" value="1">
+            <button class="name-add btn btn-primary" type="submit">Add List</button>
+          </form>
+          <div id="list-1-hidden" class="hiding">
+            <div>
+              <h3><span id="list-1-name"></span></h3>
+              <ul>
+                <li>
+                  <form class="add-to-list" value="1">
+                    <input class="list-1-to-do" type="text"></input>
+                    <button class="btn btn-xs btn-primary" type="submit">Add to list</button>
+                  </form>
+                </li>
+                <span class="list-1-incomplete"></span>
+              </ul>
+            </div>
+
+            <div>
+              <h3>Done!</h3>
+              <ul class="completed-list">
+                <span class="list-1-complete"></span>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- LIST TWO -->
+        <div class="col-4">
+          <form class="create-list" value="2">
+            <button class="name-add btn btn-primary" type="submit">Add List</button>
+          </form>
+          <div id="list-2-hidden" class="hiding">
+            <div>
+              <h3><span id="list-2-name"></span></h3>
+              <ul>
+                <li>
+                  <form class="add-to-list" value="2">
+                    <input class="list-2-to-do" type="text"></input>
+                    <button class="btn btn-xs btn-primary" type="submit">Add to list</button>
+                  </form>
+                </li>
+                <span class="list-2-incomplete"></span>
+              </ul>
+            </div>
+
+            <div>
+              <h3>Done!</h3>
+              <ul class="completed-list">
+                <span class="list-2-complete"></span>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div><!--Closes the row-->
+
+  	</div>
+	</body>
+</html>
