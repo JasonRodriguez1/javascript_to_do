@@ -83,25 +83,3 @@ $(function(){
 
   return false;
 });
-
-/*
-
-$(function(){
-  $('form#list-one-add').submit(function() {
-    var newItem = $('input.to-do').val();
-    $('span.incomplete-tasks').prepend("<li class='list-item'>" + newItem + "</li>");
-
-    $(".list-item").each(function(index){
-      $(this).click(function() {
-        $('span.complete-tasks').prepend("<li class='list-item'>" + newItem + "</li>");
-        $(this).remove();
-      });
-    });
-
-
-    return false;
-  });
-  return false;
-});
-
-*/
